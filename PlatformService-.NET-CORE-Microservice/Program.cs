@@ -1,7 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using PlatformService.Data;
 using PlatformService.SyncDataServices.Http;
-using PlatformService.SyncDataServices.Http;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -23,6 +22,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+Console.WriteLine($"--> CommandService Endpoint {app.Configuration["CommandService"]}");
 app.UseHttpsRedirection();
 app.UseRouting();
 app.UseAuthorization();
@@ -31,4 +31,4 @@ app.UseEndpoints(endpoints =>
     _ = endpoints.MapControllers();
 });
 PrepDb.PrepPopulation(app);
-app.Run(); 
+app.Run();
