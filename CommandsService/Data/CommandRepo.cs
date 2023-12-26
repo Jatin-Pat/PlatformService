@@ -1,5 +1,8 @@
+using System;
 using System.Collections.Generic;
+using System.Linq;
 using CommandsService.Models;
+
 
 namespace CommandsService.Data
 {
@@ -37,7 +40,7 @@ namespace CommandsService.Data
             return _context.Platforms.ToList();
         }
 
-        public CommandRepo GetCommand(int platformId, int commandId)
+        public Command GetCommand(int platformId, int commandId)
         {
             return _context.Commands.Where(c => c.PlatformId == platformId && c.Id == commandId).FirstOrDefault();
         }
@@ -46,9 +49,9 @@ namespace CommandsService.Data
             return _context.Commands.Where(c => c.PlatformId == platformId).OrderBy(c => c.Platform.Name);
         }
 
-        public bool PlatformExist(int platformId)
+        public bool PlatformExists(int platformId)
         {
-            return _context.Platforms.Any(platformId => platformId.Id == platformId);
+            return _context.Platforms.Any(p => p.Id == platformId);
         }
 
         public bool SaveChanges()

@@ -5,11 +5,11 @@ namespace CommandsService.Data
 {
     public interface ICommandRepo
     {
-        bool saveChanges();
+        bool SaveChanges();
 
         // Platforms
         IEnumerable<Platform> GetAllPlatforms();
-        void createPlatform(Platform plat);
+        void CreatePlatform(Platform plat);
         bool PlatformExists(int platformId);
 
         // Commands
