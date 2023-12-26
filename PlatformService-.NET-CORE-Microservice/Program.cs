@@ -40,5 +40,6 @@ app.UseEndpoints(endpoints =>
 {
     _ = endpoints.MapControllers();
 });
-PrepDb.PrepPopulation(app);
+
+PrepDb.PrepPopulation(app, builder.Environment.IsProduction());
 app.Run();
