@@ -1,7 +1,7 @@
 # Microservices Architecture with .NET 🚀
 
-![Solution Architecture](./url_to_image_1)
-![Command Service Architecture](./url_to_image_2)
+![Solution Architecture](https://github.com/user-attachments/assets/69dc4c7c-2479-446d-bdf9-9c63ddf412e2)
+![Command Service Architecture](https://github.com/user-attachments/assets/38c659cd-93f0-4455-bdb0-86bc92e3484f)
 
 [![.NET Core](https://img.shields.io/badge/.NET_Core-5C2D91?style=for-the-badge&logo=dotnet&logoColor=white)](https://dotnet.microsoft.com/)
 [![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)](https://kubernetes.io/)
@@ -40,7 +40,7 @@ The architecture is designed to support internal microservices communication wit
 <details>
 <summary>View Architecture Diagram</summary>
 
-![Solution Architecture](./url_to_image_1)
+![Solution Architecture](https://github.com/user-attachments/assets/69dc4c7c-2479-446d-bdf9-9c63ddf412e2)
 
 </details>
 
@@ -50,7 +50,7 @@ This service handles incoming requests both synchronously through HTTP and gRPC 
 <details>
 <summary>View Command Service Diagram</summary>
 
-![Command Service Architecture](./url_to_image_2)
+![Command Service Architecture](https://github.com/user-attachments/assets/38c659cd-93f0-4455-bdb0-86bc92e3484f)
 
 </details>
 
@@ -88,13 +88,6 @@ This service handles incoming requests both synchronously through HTTP and gRPC 
     - **API Gateway:** `http://localhost:5000`
     - **RabbitMQ Management:** `http://localhost:15672`
     - **SQL Server:** Use SQL Server Management Studio or other tools to connect.
-
-## 📸 Screenshots
-
-- **Solution Architecture**:
-    ![Solution Architecture](https://github.com/user-attachments/assets/69dc4c7c-2479-446d-bdf9-9c63ddf412e2)
-- **Command Service Architecture**:
-    ![Command Service Architecture](https://github.com/user-attachments/assets/38c659cd-93f0-4455-bdb0-86bc92e3484f)
 
 ---
 
