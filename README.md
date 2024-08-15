@@ -3,12 +3,12 @@
 ![Solution Architecture](./url_to_image_1)
 ![Command Service Architecture](./url_to_image_2)
 
-![.NET Core](https://img.shields.io/badge/.NET_Core-5C2D91?style=for-the-badge&logo=dotnet&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white)
-![gRPC](https://img.shields.io/badge/gRPC-4285F4?style=for-the-badge&logo=google&logoColor=white)
-![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
+[![.NET Core](https://img.shields.io/badge/.NET_Core-5C2D91?style=for-the-badge&logo=dotnet&logoColor=white)](https://dotnet.microsoft.com/)
+[![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)](https://kubernetes.io/)
+[![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
+[![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white)](https://www.rabbitmq.com/)
+[![gRPC](https://img.shields.io/badge/gRPC-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://grpc.io/)
+[![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
 
 ## 🌟 Overview
 
@@ -92,7 +92,9 @@ This service handles incoming requests both synchronously through HTTP and gRPC 
 ## 📸 Screenshots
 
 - **Solution Architecture**:
-    ![Solution Architecture](![videoframe_2619726](https://github.com/user-attachments/assets/69dc4c7c-2479-446d-bdf9-9c63ddf412e2)
+    ![Solution Architecture](https://github.com/user-attachments/assets/69dc4c7c-2479-446d-bdf9-9c63ddf412e2)
 - **Command Service Architecture**:
-    ![Command Service Architecture](![videoframe_2759726](https://github.com/user-attachments/assets/38c659cd-93f0-4455-bdb0-86bc92e3484f)
+    ![Command Service Architecture](https://github.com/user-attachments/assets/38c659cd-93f0-4455-bdb0-86bc92e3484f)
+
 ---
+
