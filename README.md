@@ -68,19 +68,43 @@ This service handles incoming requests both synchronously through HTTP and gRPC 
 
 1. **Clone the repository:**
 
+    ```bash
+    git clone https://github.com/your-username/your-repo-name.git
+    cd your-repo-name
+    ```
+
 2. **Build and run the services using Docker:**
+
     ```bash
     docker-compose up --build
     ```
 
 3. **Deploy to Kubernetes:**
-    - Use the Kubernetes deployment files provided in the `/k8s` directory.
-    - Apply the configurations using:
+
+    - Navigate to the `/K8S` directory:
+
+    ```bash
+    cd CommandsService/K8S
+    ```
+
+    - Apply the desired configuration(s) using the following command:
+
     ```bash
     kubectl apply -f <file_name>.yaml
     ```
 
+    Replace `<file_name>.yaml` with one of the following, depending on what you want to deploy:
+
+    - `commands-depl.yaml` for deploying the command service.
+    - `ingress-srv.yaml` for setting up the Nginx Ingress controller.
+    - `local-pvc.yaml` for setting up a persistent volume claim.
+    - `mssql-plat-depl.yaml` for deploying the SQL Server for the platform service.
+    - `platforms-depl.yaml` for deploying the platform service with gRPC network setup.
+    - `platforms-np-srv.yaml` for setting up a cluster IP service for inter-service communication.
+    - `rabbitmq-depl.yaml` for deploying RabbitMQ.
+
 4. **Access the Services:**
+
     - **API Gateway:** `http://localhost:5000`
     - **RabbitMQ Management:** `http://localhost:15672`
     - **SQL Server:** Use SQL Server Management Studio or other tools to connect.
